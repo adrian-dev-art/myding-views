@@ -45,6 +45,7 @@ button {
 body {
   background-color: var(--primary);
   overflow: visible;
+  display: flex;
 }
 
 /* Fonts */
@@ -62,6 +63,7 @@ body {
   align-content: center;
   flex-direction: row;
   background-color: var(--secondary);
+  width: 100vw;
 }
 
 .topbar .left-bar {
@@ -142,6 +144,8 @@ body {
 .profile-pic {
   border-radius: 50%;
 }
+
+
 
 .card-post {
   background-color: var(--secondary);
