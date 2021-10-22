@@ -265,12 +265,13 @@ body {
   align-items: center;
 }
 
-.comment-form input {
-  /* background: var(--white); */
-  background: none;
-  border-radius: 15px;
-  height: 1.8em;
-  border-width: 2px;
+.comment-form textarea {
+  background: var(--white);
+  /* background: none; */
+  border-radius: 10px;
+  height: 45px;
+  max-height: 10vh;
+  border: none;
   width: 60vw;
-  border-color: var(--secondary);
+  color: var(--black);
 }
