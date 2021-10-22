@@ -57,8 +57,8 @@
   </section>
 
   <section class="comment">
-    <div class="offcanvas offcanvas-bottom " tabindex="-1" id="offcanvasBottom"
-      aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas offcanvas-bottom " tabindex="-1" id="comment"
+      aria-labelledby="comment">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasBottomLabel">Comment <span class="badge bg-secondary"></span></h5>
         <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
@@ -89,6 +89,7 @@
               <p class="card-text  text-end"><small class="text-muted">3 mins ago</small></p>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur consectetur consectetur consectetur adipisicing elit. Veniam, </p>
+            <img src="Assets/Icons/heart-circle-outline.png" alt="" class="mt-1">
           </div>
         </div>
 
@@ -104,6 +105,51 @@
           <img src="Assets/Icons/account-circle-outline.png" alt="">
       </button>
       </form>
+    </section>
+
+    <section class="share">
+      <div class="offcanvas offcanvas-bottom share-card" tabindex="-1" id="share" aria-labelledby="share">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="share">Share</h5>
+        </div>
+        <div class="offcanvas-body small">
+          <div class="share-panel">
+            <ul class="icon-panel-share">
+              <li>
+                <a href="">
+                  <img src="Assets/Icons/clippy.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="Assets/Icons/gift-outline.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="Assets/Icons/whatsapp.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="Assets/Icons/currency-eth.png" alt="">
+                </a>
+              </li>
+            </ul>
+            <ul class="icon-person-panel">
+              <li>
+                <img class="rounded-circle" src="Assets/Images/oRdM_95gK2s.png" alt="">
+              </li>
+              <li>
+                <img class="rounded-circle" src="Assets/Images/oRdM_95gK2s.png" alt="">
+              </li>
+              <li>
+                <img class="rounded-circle" src="Assets/Images/oRdM_95gK2s.png" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
     </section>
 
   <!-- <section class="react">
@@ -184,17 +230,16 @@
             </button>
           </li>
           <li>
-
-
-            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
-              aria-controls="offcanvasBottom">
+            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#comment"
+              aria-controls="comment">
               <img src="Assets/Icons/comment-quote-outline.png" alt="" />
             </button>
           </li>
           <li>
-            <a href="#shares">
+            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#share"
+              aria-controls="share">
               <img src="Assets/Icons/share-all-outline.png" alt="" />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
