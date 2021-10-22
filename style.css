@@ -44,7 +44,7 @@ button {
 /* Base Style */
 body {
   background-color: var(--primary);
-  overflow: visible;
+  overflow-x: hidden;
   display: flex;
 }
 
@@ -144,8 +144,6 @@ body {
 .profile-pic {
   border-radius: 50%;
 }
-
-
 
 .card-post {
   background-color: var(--secondary);
@@ -256,4 +254,23 @@ body {
   font-weight: 600;
   letter-spacing: -0.7px;
   line-height: 0.8rem;
+}
+
+.comment-form {
+  /* background-color: violet; */
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comment-form input {
+  /* background: var(--white); */
+  background: none;
+  border-radius: 15px;
+  height: 1.8em;
+  border-width: 2px;
+  width: 60vw;
+  border-color: var(--secondary);
 }
